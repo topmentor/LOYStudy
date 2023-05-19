@@ -9,11 +9,11 @@
 -----------------------------------
 
 ## 멤버 링크
-1. [김효경] (https://github.com/kimhyokyoung/2023-Java-Study) <br>
-2. [박준수] (https://github.com/Qwerty-Fied/2023-Java-Study) <br>
-3. [유가은] (https://github.com/youkwa/2023-Java-Study) <br>
-4. [장대현] (https://github.com/wkdeogus/2023-Java-Study) <br>
-5. [한태영] (https://github.com/gksxodud1/2023-Java-Study) <br>
+1. [김효경](https://github.com/kimhyokyoung/2023-Java-Study) <br>
+2. [박준수](https://github.com/Qwerty-Fied/2023-Java-Study) <br>
+3. [유가은](https://github.com/youkwa/2023-Java-Study) <br>
+4. [장대현](https://github.com/wkdeogus/2023-Java-Study) <br>
+5. [한태영](https://github.com/gksxodud1/2023-Java-Study) <br>
 <br><br>
 
 -----------------------------------
