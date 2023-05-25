@@ -2,8 +2,8 @@
 <br>
 
 ## 안내
+1. 스터디 보강3 업로드 (2023-05-25)
 1. 스터디 보강2 업로드 (2023-05-18)
-2. 스터디 보강1 업로드 (2023-05-12)
 <br><br>
 
 -----------------------------------
@@ -11,9 +11,8 @@
 ## 멤버 링크
 1. [김효경](https://github.com/kimhyokyoung/2023-Java-Study) <br>
 2. [박준수](https://github.com/Qwerty-Fied/2023-Java-Study) <br>
-3. [유가은](https://github.com/youkwa/2023-Java-Study) <br>
-4. [장대현](https://github.com/wkdeogus/2023-Java-Study) <br>
-5. [한태영](https://github.com/gksxodud1/2023-Java-Study) <br>
+3. [장대현](https://github.com/wkdeogus/2023-Java-Study) <br>
+4. [한태영](https://github.com/gksxodud1/2023-Java-Study) <br>
 <br><br>
 
 -----------------------------------
