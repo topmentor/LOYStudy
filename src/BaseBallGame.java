@@ -1,16 +1,19 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * 사용자 수를 입력받고 
+ */
 public class BaseballGame {
 
-    Integer[] rand_num = new Integer[3];
-    Integer[][] user_input = null;
+    public Integer[] rand_num = null;
+    public Integer[][] user_input = null;
     int strike_num = 0;
     int ball_num = 0;
 
 
     public int gameCount = 10;
-    private String[] resultText = null;
+    public String[] resultText = null;
 
     public BaseballGame() {
         this.gameCount = 10;
@@ -24,23 +27,6 @@ public class BaseballGame {
         user_input = new Integer[gameCount][3];
     }
 
-
-    public void genNumber() {
-        int value = 0;
-
-        // 랜덤 수 만들기
-        for (int i = 0; i < 3; i++) {
-            value = (int) Math.floor(Math.random() * 10); // 0~9
-
-            // 중복 처리
-            if (Arrays.asList(rand_num).indexOf(value) == -1 && value > 0) {
-                rand_num[i] = value;
-                System.out.println(rand_num[i]);
-            } else {
-                i--;
-            }
-        }
-    }
 
     public void inputUserNumber(int cnt) {
         Scanner sc = new Scanner(System.in);
@@ -91,22 +77,5 @@ public class BaseballGame {
         return strike_num;
     }
 
-    public void printResult() {
-        System.out.println("\n\n입력한 모든 값 ------------------------------ ");
-        for (int i = 0; i < gameCount; i++) {
-            if (user_input[i] != null && user_input[i][0] != null) {
-                System.out.println("" + (i + 1) + "회차 입력 값 : " + user_input[i][0] + " , " + user_input[i][1] + " , " + user_input[i][2]);
-            }else{
-                break;
-            }
-        }
-        System.out.println("\n전체 결과 보기 ------------------------------ ");
-        for (String res : resultText) {
-            if (res != null && !res.equals("")) {
-                System.out.println(res);
-            }
-        }
-        System.out.println("---------------------------------------- ");
 
-    }
 }
